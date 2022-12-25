@@ -1,0 +1,121 @@
+/* .container{
+  box-sizing: border-box;
+  box-shadow:inset 10px -19px 108px 19px rgba(0,0,0,.3);
+  height: 100px;
+  background-color:teal;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+} */
+*{
+  margin: 0;
+}
+.logo{
+  width:60px;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i));
+}
+@keyframes flip {
+  0%,90% {
+    transform: rotateY(360deg)
+  }
+}
+.tag{
+  padding: 20px;
+  left:50%;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380__340.jpg");
+  color: white;
+  align-items:center;
+}
+main{
+  margin-top: 2px;
+}
+.row{
+   display: grid;
+   grid-template-columns: 130px auto;
+   background-image: url("https://c4.wallpaperflare.com/wallpaper/59/97/72/design-sofa-furniture-watch-wallpaper-preview.jpg");
+}
+.col{
+  height: auto;
+}
+#navcol{
+  background-color: black;
+}
+.nav-link{
+  display:block;
+  width: 115px;
+  height: 100px;
+  background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/WDL/b3452e33-photo-1576092762791-dd9e2220abd1.jpeg");
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+  padding:20px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: inset  10px -19px 108px -10px rgba(0,0,0,1);
+  align-items: center;
+}
+#navLeft{
+  box-sizing: border-box;
+  box-shadow: inset 10px -19px 78px 70px rgba(0,0,0,0.5);
+  text-align: center;
+  background-color:rgba(163, 163, 117,.6);
+  padding: 70px;
+  font-family: cursive;
+}
+.service{
+  height:auto;
+}
+.head{
+  font-weight: bold;
+  text-align: left;
+}
+.service h4{
+  margin: 20px;
+  padding: 20px;
+}
+.service p, .service ul{
+  text-align: left;
+}
+.carousel-item{
+  height: 400px;
+  padding: 20px;
+}
+.faq{
+  text-align: left;
+  margin-top: 10px;
+}
+.ques{
+  font-weight: bold;
+}
+footer>h2{
+  margin-top: 0
+}
+span{
+  padding-top: 70px;
+}
+footer{
+  height: 100px;
+  background-color: hsl(0, 20%, 50%);
+  color: white
+}
+#con{
+  width: 20px;
+}
+section{
+  text-align:center;
+  background-color: whitesmoke;
+  padding: 50px
+}
